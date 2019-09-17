@@ -1,8 +1,8 @@
 
-class machine implements Coinable{
+class vendingMachine implements vendingMachineInterface{
 	private int gummyballs;
 	
-	public machine(int gummyballs) {
+	public vendingMachine(int gummyballs) {
 		this.gummyballs = gummyballs;
 	}
 	public boolean checkgummys() {
